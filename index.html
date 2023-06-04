@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Số VP Cần Nạp</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+    </header>
+    
+    <div class="containerfull">
+        <div class="container">
+            <div class="math-vp-system">
+                <label for="rd-value">Nhập Valorant Point (VP) cần nạp: </label>
+                <input type="text" id="rd-value" placeholder="vd: 1775">
+                <br>
+                <div class="box">
+                    <div class="box-kq">
+                        <div id="result-text"></div>
+                    </div>
+                    <div class="box-kq2">
+                        Tổng: <span id="sum-rq">0</span> VP                      
+                        <br>
+                        <br>
+                        Số Tiền Cần Nạp Vào Game: <span id="result-money" style="color:#7e37e5">0 </span> K
+                        <br>
+                        <br>
+                        Còn Dư: <span id="conlai-rq">0</span> VP
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <button onclick="thongso(52,110,275,610,3040,6550,10,20,50,100,500,1000);isClicking_hover(this)">Zalopay</button>
+                <button onclick="thongso(50,105,268,535,1100,2895,10,20,50,100,200,500);isClicking_hover(this)">Zing Card</button>
+                <button onclick="thongso(255,530,1090,2860,6160,12660,50,100,200,500,1000,2000);isClicking_hover(this)">ATM</button>
+                <button onclick="thongso(260,530,1090,2860,6160,12660,50,100,200,500,1000,2000);isClicking_hover(this)">Credit Card</button>
+                <br>
+                <p id="huongdansudung" onclick="hidingElement()">Hướng Dẫn Sử Dụng!</p>
+                <br>
+                <img src="images/huongdan.png" alt="huongdansudung" id="huongdansudung-img" >
+                <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwi0-Le3uqj_AhUHYCsKHaLaAysYABAAGgJzZg&sig=AOD64_3ccAGzXPVganv1y1O0Z78ro6D61Q&q&adurl&ved=2ahUKEwiZ1bO3uqj_AhUJTGwGHbhrCLsQ0Qx6BAgJEAE" style="float:right;color:plum;margin-top: 30px;" target="_blank">Chuyển đến trang nạp của Zing!</a>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/realconghuanuwu" target="_blank" rel="noopener noreferrer"><img src="images/github.png" alt="github"></a> 
+        <a href="https://www.facebook.com/realconghuanUwU/" target="_blank" rel="noopener noreferrer"><img src="images/fb.png" alt="fb" srcset=""></a>  
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
